@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<title>Treasure Hunt</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="shortcut icon" href="https://st3.depositphotos.com/7107694/14217/v/1600/depositphotos_142172652-stock-illustration-diamond-vector-icon.jpg">
+<style>
+/* vietnamese */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'), url(https://fonts.gstatic.com/s/inconsolata/v16/QldKNThLqRwH-OJ1UHjlKGlW5qhWxg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-image: url('bg_index.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 25px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0;
+    left: 16px;
+}
+
+.bottomleft {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+.menu{
+    display: none;
+}
+.colors{
+  animation:myanimation 5s infinite;
+
+}
+a{
+  text-decoration: none;
+}
+</style>
+<body>
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="bgimg">
+  <div class="topleft">
+    <p>LTMC IASI</p>
+  </div>
+  <div class="middle" >
+    <h1>TREASURE HUNT</h1>
+    <hr>
+    <p id="demo" style="font-size:30px">.....</p>
+  </div>
+  <div class="bottomleft w3-tag colors"><a href="https://www.facebook.com/events/180222746260304/"><p>Facebook</p></a>
+  </div>
+</div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-dark w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <div class ="colors"><h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide colors"><strong>DESPRE TREASURE HUNT</strong></span></h5></div>
+    <br>
+    <br>
+     <div class ="colors"><h5 class=" w3-padding-64"><span class="w3-wide colors">DATA-ORA-LOCATIE-PUNCT_DE_PORNIRE</span></h5></div>
+<p>DATA : 24 NOIEMBRIE 2018<br>
+ORA (startul evenimentului) : 11:00<br><br>
+PUNCT DE PORNIRE : CENTRUL ORAȘULUI (statuia lui Alexandru Ioan Cuza)<br>
+</p><p>LOCAȚII: <br>
+Bulevardul Carol I<br>
+Parcul Expoziției<br>
+Parcul Copou<br>
+Grădină Botanică<br> 
+Centrul orașului (statuia lui Alexandru Ioan Cuza)<br></p>
+<p>
+<div class ="colors"><h5 class=" w3-padding-64"><span class=" w3-wide colors">DESFASURARE</span></h5></div><br>
+     Punctul de întâlnire este Centrul orașului. Aici se vor împarți participanții în 5 echipe cu un număr cât de cât egal de membrii. Fiecare echipă va primi câte un supraveghetor ce va fi participant, fără să știe în totalitate regulile jocului. De la punctul de întâlnire, prin tragere la sorți, echipele vor fi repartizate la una dintre cele 5 locații. De asemenea, fiecare echipă va primi de la start un plic ce va conține lucruri necesare fiecărei locații, plus un regulament și un săculeț, lucruri ce vor stă la căpitanul echipei, ales de grup prin vot. La fiecare locație va fi câte o sarcină diferită de făcut. 
+     Ordinea, indiferent de locația nimerită, este : 
+<strong style ="color:red">Centrul orașului</strong style ="color:red"> → <strong style ="color:yellow">Bulevardul Carol I </strong>→ <strong style ="color:green" >Parcul Copou</strong> → <strong style ="color:#ff3399">Parcul Expoziției</strong> → <strong style ="color:aqua">Grădină Botanică </strong>→ <strong style ="color:orange">Centrul orașului</strong>, 
+lucru ce va fi specificat în <strong style ="color:red">regulament</strong>.Tot în regulament va fi specificat faptul că  <strong style ="color:aqua">timpul dintre locații nu este cronometrat</strong>, iar în locații, dacă sarcină nu constituie cronometrare, această nu se va face. 
+     La fiecare zonă, în funcție de performanțele obținute, participanții vor fi recompensați cu monezi. Tot în plic participanții vor găsi o lista cu 20 de provocări. La final, după parcurgerea tuturor celor 5 locații, un verificator, ce se va află la statuia lui Al. I. Cuza, va avea rolul de a verifică autenticitatea, dat și corectitudinea filmulețelor. În cazul în care filmulețele sunt veridice, verificatorul va oferi monezi în funcție de provocări și gradul lor de greutate. De asemenea, supraveghetorii au obligația de a sesiză orice neregulă sau abatere de la regulament. În cazul în care se încalcă regulamentul, verificatorul trebuie să pedepsească echipă, luându-i jumătate din sumă de bani avuta (în cazul în care nu se împarte exact la doi, se rotunjește la zecimale). Pe de altă parte, dacă s-a comis o neregulă, dar supraveghetorul echipei nu raportează abaterea de la regulament, ci un alt membri sau supraveghetor din altă echipă, grupul respectiv este eliminat din competiție indiferent de banii strânși. Este strict interzisă folosirea mijloacelor de transport în comun, de orice natură, a folosirii internetului, atunci când zonă nu specifică folosirea lui, și oprirea celorlalte echipe prin orice metodă.  
+     În cazul în care o echipă ajunge la o locație, dar o altă echipă are încă de efectuat probe, supraveghetorul echipei se va asigură că coechipierii săi vor aștepta în liniște, astfel încât echipă adversă să termine probele de la locația respectivă. În acest timp, echipă abia venită poate îndeplini provocările bonus. Un aspect foarte important este că fiecare membru din echipă să se implice în cel puțin o provocare din cele suplimentare. </p>
+
+</p>
+   <div class ="colors"><h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide colors"><strong>Contacteaza-ne</strong></span></h5></div>
+   <p>Adresa: Strada MUȘATINI nr. 12, 700591</p>
+   <p>Email: LTMC_treasurehunt@yahoo.com</p>
+   <p>Pagina de facebook:<a href="https://www.facebook.com/events/180222746260304/"><span class = "colors"> Click Me !</span></a></p><br>
+</div>
+<script>
+// colors
+// Tabbed Menu
+
+var countDownDate = new Date("Nov 24, 2018 11:00:00").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days + " zile " + hours + " ore "
+    + minutes + " minute " + seconds + " secunde ";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(countdownfunction);
+        document.getElementById("demo").innerHTML = "Evenimentul a inceput !";
+    }
+}, 1000);
+</script>
+
+</body>
+</html>
